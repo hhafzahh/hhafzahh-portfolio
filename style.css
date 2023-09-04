@@ -101,8 +101,9 @@
   /* As users scroll, a sticky menu always stays in sight */
   /* need to create a function to change navbar to black if the site is being scrolled down. */
   .navbar.sticky {
-    padding: 15px 0;
-    background: #000001;
+    padding: 12px 0;
+    background: #000000;
+    opacity: 0.4;
   }
   
   .navbar .max-width {
@@ -143,7 +144,7 @@
   .logo-img {
     height: auto;
     width: auto;
-    max-height: 100px;
+    max-height: 50px;
     max-width: 250px;
 }
 .skill-img {
@@ -477,8 +478,6 @@
   .owl-dot:hover {
     background: #18365a !important;
   }
-
-
   
   /*  Contact  */
   .contact {
