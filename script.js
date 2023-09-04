@@ -85,3 +85,9 @@ $(".carousel").owlCarousel({
       }
     }
   });
+
+     //  Toggle Navbar for Mobile App Screen
+     $(".menu-btn").click(function () {
+        $(".navbar .menu").toggleClass("active");
+        $(".menu-btn i").toggleClass("active");
+      });
