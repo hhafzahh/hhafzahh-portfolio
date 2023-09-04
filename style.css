@@ -100,10 +100,12 @@
   
   /* As users scroll, a sticky menu always stays in sight */
   /* need to create a function to change navbar to black if the site is being scrolled down. */
+  /* change of CSS*/
   .navbar.sticky {
     padding: 12px 0;
     background: #000000;
     opacity: 0.4;
+
   }
   
   .navbar .max-width {
